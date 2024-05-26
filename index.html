@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teoria delle Onde</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #444;
+      }
+      nav a {
+        color: #fff;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background: #555;
+      }
+      section {
+        padding: 20px;
+      }
+      h2 {
+        color: #333;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container > div {
+        flex: 1;
+        min-width: 300px;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Teoria delle Onde</h1>
+    </header>
+    <nav>
+      <a href="#moti-ondulatori">Moti Ondulatori</a>
+      <a href="#suono">Il Suono</a>
+      <a href="#effetto-doppler">Effetto Doppler</a>
+      <a href="#onde-armoniche">Onde Armoniche</a>
+      <a href="#interferenza-e-battimenti">Interferenza e Battimenti</a>
+      <a href="#onde-stazionarie">Onde Stazionarie</a>
+      <a href="#colori-luce">Colori della Luce</a>
+      <a href="#energia-onde-luminose">Energia nelle Onde Luminose</a>
+      <a href="#interferenza-luce">Interferenza della Luce</a>
+      <a href="#diffrazione-luce">Diffrazione della Luce</a>
+    </nav>
+    <section id="moti-ondulatori">
+      <h2>Moti Ondulatori</h2>
+      <p>
+        I moti ondulatori sono fenomeni fisici in cui l'energia si propaga
+        attraverso un mezzo materiale o nello spazio, senza il trasporto di
+        materia. Le onde possono essere classificate in due categorie
+        principali: onde meccaniche e onde elettromagnetiche. Le onde
+        meccaniche, come le onde sonore, necessitano di un mezzo per propagarsi,
+        mentre le onde elettromagnetiche, come la luce, possono propagarsi anche
+        nel vuoto.
+      </p>
+      <p>Caratteristiche principali delle onde:</p>
+      <ul>
+        <li>
+          <strong>Lunghezza d'onda (λ)</strong>: la distanza tra due creste
+          successive.
+        </li>
+        <li>
+          <strong>Frequenza (f)</strong>: il numero di oscillazioni per unità di
+          tempo.
+        </li>
+        <li>
+          <strong>Ampiezza (A)</strong>: l'altezza massima dell'onda rispetto
+          alla posizione di equilibrio.
+        </li>
+        <li>
+          <strong>Velocità di propagazione (v)</strong>: la velocità con cui
+          l'onda si muove attraverso il mezzo.
+        </li>
+      </ul>
+      <p>La relazione tra queste grandezze è data dalla formula:</p>
+      <p><code>v = λ &middot; f</code></p>
+    </section>
+    <section id="suono">
+      <h2>Il Suono</h2>
+      <p>
+        Il suono è un'onda meccanica longitudinale che si propaga attraverso un
+        mezzo elastico, come l'aria, l'acqua o i solidi. È prodotto da una
+        sorgente che vibra, creando variazioni di pressione che si propagano
+        sotto forma di onde.
+      </p>
+      <p>Caratteristiche principali del suono:</p>
+      <ul>
+        <li>
+          <strong>Frequenza</strong>: determina l'altezza del suono (tono). Si
+          misura in Hertz (Hz).
+        </li>
+        <li>
+          <strong>Ampiezza</strong>: determina l'intensità del suono (volume).
+        </li>
+        <li>
+          <strong>Velocità del suono</strong>: dipende dal mezzo di
+          propagazione. Ad esempio, nell'aria a temperatura ambiente è circa 343
+          m/s.
+        </li>
+      </ul>
+    </section>
+    <section id="effetto-doppler">
+      <h2>Effetto Doppler</h2>
+      <p>
+        L'effetto Doppler è il cambiamento apparente della frequenza di un'onda
+        causato dal moto relativo tra la sorgente dell'onda e l'osservatore.
+      </p>
+      <p>
+        Formula dell'effetto Doppler per una sorgente in movimento rispetto ad
+        un osservatore fermo:
+      </p>
+      <p>
+        <code>f' = (v + v<sub>0</sub>) / (v + v<sub>s</sub>) &middot; f</code>
+      </p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>f'</code> è la frequenza osservata,</li>
+        <li><code>f</code> è la frequenza emessa dalla sorgente,</li>
+        <li><code>v</code> è la velocità del suono nel mezzo,</li>
+        <li>
+          <code>v<sub>0</sub></code> è la velocità dell'osservatore (positiva se
+          si avvicina alla sorgente),
+        </li>
+        <li>
+          <code>v<sub>s</sub></code> è la velocità della sorgente (positiva se
+          si allontana dall'osservatore).
+        </li>
+      </ul>
+    </section>
+    <section id="onde-armoniche">
+      <h2>Onde Armoniche</h2>
+      <p>
+        Le onde armoniche sono onde sinusoidali che possono essere descritte da
+        una funzione sinusoidale del tempo. Sono caratterizzate da una
+        frequenza, un'ampiezza e una fase costante.
+      </p>
+      <p>Equazione di un'onda armonica:</p>
+      <p><code>y(x,t) = A sin(kx - ωt + φ)</code></p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>A</code> è l'ampiezza,</li>
+        <li><code>k</code> è il numero d'onda ( <code>k = 2π / λ</code> ),</li>
+        <li>
+          <code>ω</code> è la frequenza angolare ( <code>ω = 2π f</code> ),
+        </li>
+        <li><code>φ</code> è la fase iniziale.</li>
+      </ul>
+    </section>
+    <section id="interferenza-e-battimenti">
+      <h2>Interferenza e Battimenti</h2>
+      <p>
+        L'interferenza si verifica quando due o più onde si sovrappongono,
+        combinandosi per formare una nuova onda. Può essere costruttiva o
+        distruttiva, a seconda della fase relativa delle onde sovrapposte.
+      </p>
+      <h3>Interferenza Costruttiva</h3>
+      <p>
+        Si verifica quando le onde si trovano in fase, aumentando l'ampiezza
+        risultante.
+      </p>
+      <h3>Interferenza Distruttiva</h3>
+      <p>
+        Si verifica quando le onde si trovano in opposizione di fase, riducendo
+        l'ampiezza risultante.
+      </p>
+      <h3>Battimenti</h3>
+      <p>
+        I battimenti sono un tipo di interferenza che si verifica quando due
+        onde di frequenze leggermente diverse si sovrappongono. La risultante è
+        una modulazione dell'ampiezza che varia nel tempo.
+      </p>
+      <p>Frequenza dei battimenti:</p>
+      <p>
+        <code>f<sub>b</sub> = | f<sub>1</sub> - f<sub>2</sub> |</code>
+      </p>
+      <p>
+        Dove <code>f<sub>1</sub></code> e <code>f<sub>2</sub></code> sono le
+        frequenze delle due onde.
+      </p>
+    </section>
+    <section id="onde-stazionarie">
+      <h2>Onde Stazionarie</h2>
+      <p>
+        Le onde stazionarie sono onde che rimangono confinate in uno spazio,
+        creando nodi (punti di ampiezza zero) e ventri (punti di ampiezza
+        massima). Si formano quando due onde di uguale ampiezza e frequenza si
+        propagano in direzioni opposte e si sovrappongono.
+      </p>
+      <p>Equazione di un'onda stazionaria:</p>
+      <p><code>y(x,t) = 2A sin(kx) cos(ωt)</code></p>
+      <p>
+        Le onde stazionarie sono comuni negli strumenti musicali e nelle
+        risonanze delle cavità.
+      </p>
+      <p>Condizioni per la formazione di onde stazionarie:</p>
+      <ul>
+        <li>
+          Le estremità del mezzo devono essere fissate o libere, a seconda del
+          tipo di onda.
+        </li>
+        <li>
+          La lunghezza del mezzo deve essere un multiplo della metà della
+          lunghezza d'onda.
+        </li>
+      </ul>
+    </section>
+    <section id="colori-luce">
+      <h2>I Colori della Luce</h2>
+      <p>
+        La luce visibile è una forma di radiazione elettromagnetica che può
+        essere percepita dall'occhio umano. I colori della luce sono determinati
+        dalla lunghezza d'onda della radiazione elettromagnetica.
+      </p>
+      <p>Spettro Visibile:</p>
+      <ul>
+        <li><strong>Violetto</strong>: 380-450 nm</li>
+        <li><strong>Blu</strong>: 450-495 nm</li>
+        <li><strong>Verde</strong>: 495-570 nm</li>
+        <li><strong>Giallo</strong>: 570-590 nm</li>
+        <li><strong>Arancione</strong>: 590-620 nm</li>
+        <li><strong>Rosso</strong>: 620-750 nm</li>
+      </ul>
+      <p>Dispersione della Luce:</p>
+      <p>
+        La dispersione si verifica quando la luce bianca passa attraverso un
+        prisma, separandosi nei suoi colori componenti a causa della differenza
+        di velocità di ciascuna lunghezza d'onda nel mezzo.
+      </p>
+    </section>
+    <section id="energia-onde-luminose">
+      <h2>Energia nelle Onde Luminose</h2>
+      <p>
+        L'energia di una radiazione elettromagnetica è direttamente
+        proporzionale alla sua frequenza e inversamente proporzionale alla sua
+        lunghezza d'onda.
+      </p>
+      <p>Formula dell'Energia:</p>
+      <p><code>E = h &middot; f</code></p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>E</code> è l'energia del fotone,</li>
+        <li>
+          <code>h</code> è la costante di Planck (<code
+            >6.626 &times; 10<sup>-34</sup> Js</code
+          >),
+        </li>
+        <li><code>f</code> è la frequenza della luce.</li>
+      </ul>
+      <p>
+        Poiché la frequenza è legata alla lunghezza d'onda dalla relazione
+        <code>c = λ &middot; f</code> (dove <code>c</code> è la velocità della
+        luce), possiamo anche esprimere l'energia in funzione della lunghezza
+        d'onda:
+      </p>
+      <p><code>E = h &middot; c / λ</code></p>
+    </section>
+    <section id="interferenza-luce">
+      <h2>Interferenza della Luce</h2>
+      <p>
+        L'interferenza della luce si verifica quando due o più onde luminose si
+        sovrappongono, combinandosi per formare una nuova distribuzione di
+        intensità.
+      </p>
+      <h3>Tipi di Interferenza</h3>
+      <ul>
+        <li>
+          <strong>Interferenza Costruttiva</strong>: si verifica quando le onde
+          sono in fase, producendo un'intensità maggiore.
+        </li>
+        <li>
+          <strong>Interferenza Distruttiva</strong>: si verifica quando le onde
+          sono fuori fase di 180°, riducendo o annullando l'intensità.
+        </li>
+      </ul>
+      <h3>Esperimento di Young</h3>
+      <p>
+        L'esperimento della doppia fenditura di Young è un classico esempio di
+        interferenza della luce. La luce che passa attraverso due fenditure
+        produce un pattern di frange chiare e scure su uno schermo, dovute
+        all'interferenza delle onde provenienti dalle due fenditure.
+      </p>
+      <p>Formula per la Posizione delle Frange:</p>
+      <p><code>d sin θ = m λ</code></p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>d</code> è la distanza tra le fenditure,</li>
+        <li><code>θ</code> è l'angolo di deviazione,</li>
+        <li><code>m</code> è l'ordine della frangia (m = 0, 1, 2, ...),</li>
+        <li><code>λ</code> è la lunghezza d'onda della luce.</li>
+      </ul>
+    </section>
+    <section id="diffrazione-luce">
+      <h2>Diffrazione della Luce</h2>
+      <p>
+        La diffrazione è il fenomeno per cui le onde luminose si piegano quando
+        incontrano un ostacolo o una fenditura di dimensioni paragonabili alla
+        loro lunghezza d'onda.
+      </p>
+      <h3>Principio di Diffrazione di Huygens</h3>
+      <p>
+        Secondo il principio di Huygens, ogni punto di un fronte d'onda può
+        essere considerato come una sorgente di onde secondarie che si propagano
+        in tutte le direzioni.
+      </p>
+      <h3>Diffrazione da una Singola Fenditura</h3>
+      <p>
+        Quando la luce passa attraverso una singola fenditura, produce un
+        pattern di diffrazione caratterizzato da un massimo centrale ampio e
+        massimi secondari meno intensi.
+      </p>
+      <p>Formula per i Minimi di Diffrazione:</p>
+      <p><code>a sin θ = m λ</code></p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>a</code> è la larghezza della fenditura,</li>
+        <li><code>θ</code> è l'angolo di deviazione,</li>
+        <li><code>m</code> è l'ordine del minimo (m = 1, 2, 3, ...),</li>
+        <li><code>λ</code> è la lunghezza d'onda della luce.</li>
+      </ul>
+      <h3>Reticolo di Diffrazione</h3>
+      <p>
+        Un reticolo di diffrazione è costituito da molte fenditure parallele
+        ravvicinate. Quando la luce incide su un reticolo, produce un pattern di
+        diffrazione con massimi ben definiti a specifici angoli.
+      </p>
+      <p>Formula per i Massimi di Diffrazione di un Reticolo:</p>
+      <p><code>d sin θ = m λ</code></p>
+      <p>Dove:</p>
+      <ul>
+        <li><code>d</code> è la distanza tra le fenditure del reticolo,</li>
+        <li><code>θ</code> è l'angolo di deviazione,</li>
+        <li><code>m</code> è l'ordine del massimo (m = 0, 1, 2, ...),</li>
+        <li><code>λ</code> è la lunghezza d'onda della luce.</li>
+      </ul>
+    </section>
+  </body>
+</html>
